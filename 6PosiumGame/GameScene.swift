@@ -14,9 +14,11 @@ class GameScene: SKScene {
     var entities = [GKEntity]()
     var graphs = [String : GKGraph]()
     
+    @IBOutlet var outlet1: UIView!
     private var lastUpdateTime : TimeInterval = 0
     private var label : SKLabelNode?
     private var spinnyNode : SKShapeNode?
+    
     
     override func sceneDidLoad() {
 
